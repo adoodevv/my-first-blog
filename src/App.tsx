@@ -8,6 +8,13 @@ const postData = [
     excerpt: 'This is a short description of the post.',
     content: 'This is the full content of the post.'
   },
+  {
+    id: 2,
+    title: 'Post Title 2',
+    author: 'Author 2',
+    excerpt: 'This is a short description of the post.',
+    content: 'This is the full content of the post.'
+  }
 ];
 
 function App() {
