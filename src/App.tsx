@@ -19,11 +19,11 @@ const postData = [
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>My Blog</h1>
+    <div className="App min-h-screen bg-gray-100">
+      <header className="App-header bg-blue-500 text-white p-6">
+        <h1 className="text-4xl">My Blog</h1>
       </header>
-      <main>
+      <main className="p-6">
         <Posts posts={postData} />
       </main>
     </div>

@@ -15,7 +15,7 @@ interface PostsProps {
 
 const Posts: React.FC<PostsProps> = ({ posts }) => {
    return (
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
          {posts.map((post) => (
             <Post key={post.id} title={post.title} author={post.author}
                excerpt={post.excerpt} content={post.content} />
